@@ -29,7 +29,7 @@ bot = Client('Doodstream bot',
 async def start(bot, message):
     await message.reply(
         f"**Hi, {message.chat.first_name} !!**\n\n"
-        "**I am your Personal MDisk Bot 🤗, Made by @GreyMatter_Bots💞 Send me a MDisk Post to see the Magic 😅**")
+        "**I am your Personal MDisk Bot 🤗, Made by @Rk_botz💞 Send me a MDisk Post to see the Magic 😅**")
     
 @bot.on_message(filters.text & filters.private)
 async def Doodstream_uploader(bot, message):
@@ -91,7 +91,7 @@ async def Doodstream_uploader(bot, message):
     #v_len = len(v_id)
     #v_id = v_id[1:v_len - 2]
 
-    v_url = 'https://vidzoop.blogspot.com/p/share-video.html?vid=' + v_id + '&m=1'
+    v_url = 'https://moviehubhdofficial.blogspot.com/p/share-video.html?vid=' + v_id + '&m=1'
     v_url = url
     res = [str, v_url]
     return res'''
